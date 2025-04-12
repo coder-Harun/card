@@ -1,0 +1,73 @@
+.main {
+    background-color: #f3eae3;
+}
+
+* {
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+}
+
+img {
+    height: 460px;
+}
+
+.card {
+    display: flex;
+    /* background-color: white; */
+    width: 740px;
+    /* border: 2px solid black; */
+    justify-content: center;
+    align-items: center;
+}
+
+.card .right {
+    margin-left: 20px;
+    margin-right: 40px;
+    line-height: 1.5;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #3d8168;
+}
+
+.price del {
+    color: #838383;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d8168;
+    height: 48px;
+    gap: 8px;
+    border: none;
+    width: 250px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button img {
+    height: 24px;
+    background-color: #3d8168;
+}
+
+.right .title {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #838383;
+}
+
+.right p {
+    color: #838383;
+}
